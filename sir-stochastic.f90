@@ -1,3 +1,4 @@
+!///////////////////////////////////////////////////////////////////////////////
 program sir_stochastic
   implicit none
 
@@ -47,15 +48,7 @@ program sir_stochastic
      close(6)
   end do
 
-  ! open(16, file = 'deterministic.dat')
-  ! write(16,*) 0.00, 10
-  ! do i = 1, 20
-  !    write(16,*) i*10, 10+(alpha-beta)*i*10
-  ! end do
-  ! close(16)
-  
-  ! call system('gnuplot -p plot.gnu')
-  ! write(*,*)
   write(*,*) ' #Simulation completed'
 9 format('output_',i0,'.txt')
 end program sir_stochastic
+!///////////////////////////////////////////////////////////////////////////////

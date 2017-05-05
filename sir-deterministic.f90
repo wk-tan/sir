@@ -27,7 +27,6 @@ program sir
   end do
   close(6)
 
-  ! call system('gnuplot -p sir.gnu')
 end program sir
 !/////////////////////////////////////////////////////////////////////
 subroutine rk4
